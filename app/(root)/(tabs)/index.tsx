@@ -10,7 +10,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text className="font-bold text-3xl">Welcome to Kenya</Text>
+      <Text className="font-rubik-bold text-3xl ">Welcome to Kenya</Text>
       <Link href="/signIn">Sign in</Link>
       <Link href="/profile">Profile</Link>
       <Link href="/explore">Explore</Link>
