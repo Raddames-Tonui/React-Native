@@ -16,7 +16,7 @@ const SignIn = () => {
         />
         <View className="px-10">
           <Text className="text-center uppercase text-black-200 text-base font-rubik-semibold">
-            Welcome to Asora Estates
+            Welcome to Aora Estates
           </Text>
           <Text className="text-center mt-3 font-rubik-extrabold text-3xl text-black-300 ">
             Let's Get You Closer to {"\n"}
@@ -30,11 +30,11 @@ const SignIn = () => {
             <View className="flex flex-row items-center gap-x-2">
               <Image
                 source={icons.google}
-                className="h-5 w-5"
+                className="h-5 w-5 "
                 resizeMode="contain"
               />
               <Text className="text-xl text-black-300 font-rubik-medium">
-                Login with Google
+                Continue with Google
               </Text>
             </View>
           </TouchableOpacity>
